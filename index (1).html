@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+   <section>
+    <div class=""></div>
+    <div class="circle"></div>
+     <header id="navigation">
+        <a href="#" class="logo">
+            <img src="자산 1-100.jpg" alt="logo">
+        </a>
+        <ul>
+            <li><a href="#">홈</a></li>
+            <li><a href="#">반려동물소개</a></li>
+            <li><a href="#">입양이야기</a></li>
+            <li><a href="#">반려동물자랑</a></li>
+        </ul>
+     </header>
+     <div class="content">
+        <div class="textBox">
+            <h2>오늘은  저희 집 사랑둥이를 소개해보려 합니다.<br>
+            <span>저희 집 사랑둥이의 정체</span> 검은 고양이!</h2>
+            <p>이 친구의 이름은 로또이고 나이는 2살 여자아이입니다.<br>
+              저희 로또의 성격은 소심하고 겁이 많지만 호기심이 강하고 생각보다 활발한 성격입니다.<br>
+               특징은 저희 가족이 빠짐없이 모두 안전히 집안에 있는것을 가장 선호하고 가족 중 1명이라도 늦게 들어가는 날에는 걱정하며 현관에서 기다리는 일이 종종 있습니다.
+               사람은 좋아하는건지 싫어하는건지 잘 모르지만 일단 저희 가족 한정 졸졸 따라다니며 야옹야옹하며 대답하는게 가끔 강아지인가 의심스러운 일이 종종 있지만 
+               고양이다운 점이 더 많아 아 애는 고양이지 하는 일도 허다합니다. 
+               그리고 로또는 2주에 한번씩 목욕을 하는데 이유는 이 친구가 나름 깔끔쟁이라 몸 단장을 자주 하는데 그루밍을 못 하는 부분은 지저분해서
+               목욕을 시켜주고 빗질까지 해주며 개운하고 뽀송한 뽀송한 하루를 만들어줍니다. 물은 무서워 하지 않지만 고양이답게 물과 친한 편은 아니예요. 
+               그래도 막상 목욕 시작하면 물에 가만히 앉아 있어요.<br>
+               
+            </p>
+            <a href="#">로또의 일상</a>
+
+        </div>
+        <div class="imgBox">
+            <img src="로또12.jpeg" alt="" class="로또사진" width="500px" height="500px">
+
+        </div>
+     </div>
+     <ul class="thumb">
+        <li><img src="로또11.jpeg" alt="" onclick="imgSlider('로또11.jpeg');
+        changeCircleColor('#1207')"></li>
+        <li><img src="로또2.jpeg" alt="" onclick="imgSlider('로또2.jpeg');
+        changeCircleColor('#1207')"></li>
+        <li><img src="로또4.jpeg" alt="" onclick="imgSlider('로또4.jpeg');
+        changeCircleColor('#0124')"></li>
+     </ul>
+     <ul class="sci">
+        <li><a href="#"><img src="KakaoTalk_Photo_2024-04-25-02-04-44.png" alt=""></a></li>
+        <li><a href="#"><img src="KakaoTalk_Photo_2024-04-25-02-04-58.png" alt=""></a></li>
+        <li><a href="#"><img src="KakaoTalk_Photo_2024-04-25-02-05-11.png" alt=""></a></li>
+     </ul>
+   </section>
+   <script>
+    function imgSlider(anything) {
+        document.querySelector('로또').src = anything;
+    
+   </script>
+</body>
+</html>
